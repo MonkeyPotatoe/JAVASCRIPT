@@ -1,0 +1,47 @@
+body {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  margin: auto;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.task-list {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  border-radius: 15px;
+  display: block;
+  text-align: center;
+  padding: 30px 30px;
+  margin: 20px 20px;
+  max-width: 800px;
+}
+.task-list-item {
+  border: 2px solid green;
+  font-style: normal;
+  font-size: 20px;
+}
+input {
+  width: 400px;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 20px;
+  margin: 5px 5px;
+}
+input:hover {
+  background-color: rgb(238, 240, 250);
+}
+hr {
+  border-color: white;
+  border-radius: 40px;
+  height: 2px;
+  background-color: white;
+}
